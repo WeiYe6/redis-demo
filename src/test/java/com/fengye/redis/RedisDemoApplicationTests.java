@@ -41,5 +41,7 @@ class RedisDemoApplicationTests {
        System.out.println("hello-idea");
 
         System.out.println("hello-github");
+
+        System.out.println("hotfix-test");
     }
 }
