@@ -11,8 +11,8 @@ import javax.annotation.Resource;
 class RedisDemoApplicationTests {
 
 
-   /* @Autowired
-    private RedisTemplate redisTemplate;*/
+    /* @Autowired
+     private RedisTemplate redisTemplate;*/
     @Resource
     private RedisTemplate<String, Object> redisTemplate;
 
@@ -27,9 +27,9 @@ class RedisDemoApplicationTests {
     }
 
     @Test
-    void testSaveUser(){
+    void testSaveUser() {
         //写入数据
-        redisTemplate.opsForValue().set("user:10",new User("枫业",18));
+        redisTemplate.opsForValue().set("user:10", new User("枫业", 18));
 
         //读取数据
         User user = (User) redisTemplate.opsForValue().get("user:10");
@@ -37,8 +37,8 @@ class RedisDemoApplicationTests {
     }
 
     @Test
-    void testGit(){
-       System.out.println("hello-idea");
+    void testGit() {
+        System.out.println("hello-idea");
 
         System.out.println("hello-github");
 
@@ -48,6 +48,8 @@ class RedisDemoApplicationTests {
 
         System.out.println("hello i am gitee");
 
-       System.out.println("hello i am github");
+        System.out.println("hello i am github");
+        System.out.println("push gitee");
+
     }
 }
