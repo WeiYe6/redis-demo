@@ -35,8 +35,6 @@ class RedisDemoApplicationTests {
         //读取数据
         User user = (User) redisTemplate.opsForValue().get("user:10");
         System.out.println("user = " + user);
-
-        System.out.println("hello----git");
     }
 
 }
