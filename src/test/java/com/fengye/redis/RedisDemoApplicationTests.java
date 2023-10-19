@@ -37,4 +37,8 @@ class RedisDemoApplicationTests {
         System.out.println("user = " + user);
     }
 
+    @Test
+    void testGit(){
+       System.out.println("hello-idea");
+    }
 }
