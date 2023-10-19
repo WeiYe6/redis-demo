@@ -2,7 +2,6 @@ package com.fengye.redis;
 
 import com.fengye.redis.pojo.User;
 import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.redis.core.RedisTemplate;
 
@@ -40,5 +39,7 @@ class RedisDemoApplicationTests {
     @Test
     void testGit(){
        System.out.println("hello-idea");
+
+        System.out.println("hello-github");
     }
 }
