@@ -47,5 +47,7 @@ class RedisDemoApplicationTests {
         System.out.println("master--text");
 
         System.out.println("hello i am gitee");
+
+       System.out.println("hello i am github");
     }
 }
