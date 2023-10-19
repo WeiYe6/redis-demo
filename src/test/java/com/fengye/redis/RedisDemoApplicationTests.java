@@ -45,5 +45,7 @@ class RedisDemoApplicationTests {
         System.out.println("hotfix-test");
 
         System.out.println("master--text");
+
+        System.out.println("hello i am gitee");
     }
 }
